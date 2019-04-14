@@ -18,3 +18,14 @@ Ekkor az *objektumok serverként működnek* azaz, ahány objektumunk van annyi 
 
 ### Proxy
 >  Ez gyakorlatilag egy `kliens` ami becsomagolja a `kliens`től kapott anyagot és azt továbbkküldi a `server`nek, úgy, hogy az hálózaton vagy bármi egyeben át megkapja, gyakorlatilag a mgefeleől formára alakítja át.
+
+
+# Feladat
+
+Készíts RMI számológépet. Jegyezz be egy olyan szervert, amely egy számot tárol (a számológépen kijelzett szám), és a számológépek szokásos műveletei érhetőek el rajta (összeadás, szorzás stb.). Mindegyik művelet első operandusa a tárolt szám, a többi operandust meg kell adni a számológépnek. A műveletek eredménye lesz az új tárolt érték, valamint a műveletek visszatérési értéke is ez.
+
+- számológlép: összeadás, kivonás stb
+- egy szám paraméter amit elküld a másik szám a serveren adott
+- 1 paraméterű elsőnek utánna több is lehet
+
+félkész fájl: `szamologep/`
